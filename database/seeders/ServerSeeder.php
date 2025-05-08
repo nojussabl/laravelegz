@@ -14,5 +14,7 @@ class ServerSeeder extends Seeder
         Server::create(['name' => 'Music Lounge']);
         Server::create(['name' => 'Study Group']);
         Server::create(['name' => 'Movie Night']);
+        Server::create(['name' => 'Art Corner']);
+        Server::create(['name' => 'Sports Zone']);
     }
 }
